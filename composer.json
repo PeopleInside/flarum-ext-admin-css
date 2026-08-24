@@ -1,0 +1,36 @@
+{
+    "name": "peopleinside/admin-css",
+    "description": "Allows administrators to add custom CSS to the Flarum backend administration panel.",
+    "type": "flarum-extension",
+    "keywords": ["flarum", "admin", "css", "custom", "style"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "peopleinside",
+            "homepage": "https://github.com/PeopleInside"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/PeopleInside/flarum-ext-admin-css/issues",
+        "source": "https://github.com/PeopleInside/flarum-ext-admin-css"
+    },
+    "require": {
+        "flarum/core": "^2.0.0-rc.6"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Admin Custom CSS",
+            "category": "appearance",
+            "icon": {
+                "name": "fas fa-paint-brush",
+                "backgroundColor": "#e74c3c",
+                "color": "#fff"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Peopleinside\\AdminCss\\": "src/"
+        }
+    }
+}
