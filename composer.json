@@ -1,5 +1,5 @@
 {
-    "name": "peopleinside/admin-css",
+    "name": "peopleinside/flarum-ext-admin-css",
     "description": "Allows administrators to add custom CSS to the Flarum backend administration panel.",
     "type": "flarum-extension",
     "keywords": ["flarum", "admin", "css", "custom", "style"],
@@ -7,7 +7,8 @@
     "authors": [
         {
             "name": "peopleinside",
-            "homepage": "https://github.com/PeopleInside"
+            "homepage": "https://github.com/PeopleInside",
+            "email": "tickets@peopleinside-it.p.tawk.email"
         }
     ],
     "support": {
