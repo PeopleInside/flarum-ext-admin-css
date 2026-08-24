@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "@peopleinside/admin-css",
+    "name": "@peopleinside/flarum-ext-admin-css",
     "devDependencies": {
         "flarum-tsconfig": "^2.0.0",
         "flarum-webpack-config": "^3.0.0",
