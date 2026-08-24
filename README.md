@@ -1,2 +1,8 @@
-# flarum-ext-admin-css
-A Flarum 2.x extension to ad custom CSS to the Flarum admin backend
+# Admin Custom CSS for Flarum
+
+A Flarum 2.x extension that allows administrators to inject custom CSS into the backend administration panel via a dedicated settings field.
+
+## Installation
+
+```sh
+composer require peopleinside/admin-css
