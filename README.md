@@ -5,4 +5,4 @@ A Flarum 2.x extension that allows administrators to inject custom CSS into the 
 ## Installation
 
 ```sh
-composer require peopleinside/admin-css
+composer require peopleinside/flarum-ext-admin-css
